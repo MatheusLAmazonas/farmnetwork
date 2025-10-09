@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    background-color: #141414;
+    color: white;
+    padding: -20px;
+    position: relative;
+}
+
+#logoid{
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+
+}
+
+h1{
+    position: relative;
+    display: flex;
+    bottom: 60px;
+    left: 100px;
+    padding: 0;
+}
