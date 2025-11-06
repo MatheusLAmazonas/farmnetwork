@@ -7,7 +7,7 @@ import Header from './header.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
-    <App teste = "isso é um teste" />
+    <App />
     <Component />
   </StrictMode>,
 )

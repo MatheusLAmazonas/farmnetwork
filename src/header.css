@@ -5,16 +5,41 @@
 }
 
 header {
-    background-color: #141414;
-    color: white;
-    padding: -20px;
-    position: relative;
+  background: linear-gradient(90deg, #f06e21 0%, #fbbc05 50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
 }
 
-h1{
-    position: relative;
-    display: flex;
-    bottom: 60px;
-    left: 100px;
-    padding: 0;
+
+#logotrator {
+  width: 100px;
+  height: auto;
+}
+
+
+#circle-profile {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+
+
+#circle {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+#profile {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
 }
